@@ -29,13 +29,13 @@ pip install numpy matplotlib seaborn pandas tensorflow transformers
 
 ```bash
 git clone https://github.com/shreyuu/CODSOFT.git
-cd MachineLearning/MOVIE_GENRE_CLASSIFICATION
+cd MachineLearning/task_01(MOVIE_GENRE_CLASSIFICATION)
 ```
 
 2. Run the main script:
 
 ```bash
-python main.py
+python pythonmain.py
 ```
 
 ## Data
@@ -62,7 +62,7 @@ The neural network model is a simple sequential model with the following layers:
 The model is compiled with sparse categorical cross-entropy loss and Adam optimizer. It is trained on the provided training data for a specified number of epochs.
 
 ```python
-history = model.fit(train_padded_seq, train_label_seq, epochs=2, validation_data=(val_padded_seq, val_label_seq))
+history = model.fit(train_padded_seq, train_label_seq, epochs=5, validation_data=(val_padded_seq, val_label_seq))
 ```
 
 ## Results

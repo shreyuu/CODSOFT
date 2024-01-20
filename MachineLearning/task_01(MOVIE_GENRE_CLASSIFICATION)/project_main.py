@@ -145,7 +145,7 @@ def create_model(num_words, embedding_dim, maxlen):
 
 model = create_model(NUM_WORDS, EMBEDDING_DIM, MAXLEN)
 
-history = model.fit(train_padded_seq, train_label_seq, epochs=5, validation_data=(val_padded_seq, val_label_seq))
+history = model.fit(train_padded_seq, train_label_seq, epochs=5, validation_data=(val_padded_seq, val_label_seq)) #change epoch="" to the number of iterations as per need
 
 def plot_graphs(history, metric):
     plt.plot(history.history[metric])
