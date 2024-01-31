@@ -35,7 +35,7 @@ cd MachineLearning/task_01(MOVIE_GENRE_CLASSIFICATION)
 2. Run the main script:
 
 ```bash
-python pythonmain.py
+python project_main.py
 ```
 
 ## Data

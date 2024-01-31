@@ -22,7 +22,7 @@ This Python script aims to predict customer churn using a Random Forest Classifi
 
 ### File Structure
 
-- `python_main.py`: The main Python script containing data loading, preprocessing, model training, and evaluation.
+- `project_main.py`: The main Python script containing data loading, preprocessing, model training, and evaluation.
 - `Churn_Modelling.csv`: Dataset containing customer information for churn prediction.
 
 ### Functionality

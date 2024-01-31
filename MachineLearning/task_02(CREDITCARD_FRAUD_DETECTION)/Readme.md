@@ -29,14 +29,14 @@ pip install pandas scikit-learn tensorflow matplotlib
 2. **Run the script:**
 
    ```bash
-   python python_main.py
+   python project_main.py
    ```
 
 ## Description
 
 ### File Structure
 
-- `python_main.py`: The main Python script containing data loading, preprocessing, model training, and evaluation.
+- `project_main.py`: The main Python script containing data loading, preprocessing, model training, and evaluation.
 - `archive/fraudTrain.csv`: Training dataset for credit card fraud detection.
 - `archive/fraudTest.csv`: Test dataset for credit card fraud detection.
 
